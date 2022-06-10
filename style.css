@@ -11,18 +11,26 @@ navbar {
   justify-content: space-between;
 }
 
-.container2{
-    display: flex;
-    border: solid black 1px;
-    justify-content: space-between;
+.some-random-information{
+    text-align: center;
 }
 
-.inspiring-quote{
-    border: solid black 1px;
+.container2 {
+  display: flex;
+  border: solid black 1px;
+  justify-content: space-between;
 }
 
-footer{
-    border: solid black 1px;
-    display: flex;
-    justify-content: space-between;
+.container2,
+.item {
+  border: solid black 1px;
+}
+.inspiring-quote {
+  border: solid black 1px;
+}
+
+footer {
+  border: solid black 1px;
+  display: flex;
+  justify-content: space-between;
 }
