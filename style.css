@@ -31,9 +31,8 @@ navbar a {
   display: flex;
   align-items: center;
   padding: 60px;
-  border: solid black 1px;
   justify-content: space-between;
-  /* gap: 100px; */
+  gap: 100px;
   background-color: #1f2937;
   color: #f9faf8;
   padding-left: 200px;
