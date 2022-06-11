@@ -6,6 +6,7 @@
 body {
   display: flex;
   flex-direction: column;
+
 }
 
 navbar {
@@ -98,10 +99,13 @@ navbar a {
   justify-content: center;
   background-color: #e5e7eb;
   height: 300px;
-  padding-left: 200px;
-  padding-right: 200px;
 }
 
+.quote-container{
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
 .quote {
   font-size: 36px;
   font-weight: lighter;
