@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
 navbar {
   display: flex;
   align-items: baseline;
@@ -22,13 +28,19 @@ navbar a {
 .container1 {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   border: solid black 1px;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #1f2937;
   color: #f9faf8;
 }
 
+.container1 button {
+  border-color: #1f2937;
+}
+
+.description-left{
+    width: 400px;
+}
 .description-title {
   font-size: 48px;
   font-weight: bolder;
@@ -75,36 +87,33 @@ navbar a {
 .container3 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: end;
   background-color: #e5e7eb;
   border: solid black 1px;
 }
 
 .quote {
   font-size: 36px;
+  font-weight: lighter;
   font-style: italic;
+  color: #1f2937;
   border: solid black 1px;
 }
 
-footer {
+.quote-author {
+  font-weight: bold;
+}
+
+.container4 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  height: 180px;
-  min-width: 300px;
-  border-radius: 5px;
-  margin: 30px 300px;
   background-color: rgb(45, 116, 222);
   color: white;
 }
 
-.call-to-action {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  min-width: 300px;
+.call-to-action-title {
+  font-weight: bold;
 }
 
 button {
@@ -114,4 +123,10 @@ button {
   background-color: #3882f6;
   min-height: 30px;
   min-width: 100px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
 }
